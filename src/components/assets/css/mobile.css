@@ -1,0 +1,51 @@
+.mobile-logo-img {
+	width: 80px;
+	height: 80px;
+	margin-left: 15%;
+	cursor: pointer;
+}
+
+.mobile-menubutton {
+	font-family: sans-serif;
+	font-size: 4vh;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	transition: all 0.2s;
+}
+
+.mobile-menubutton:hover {
+	color: #ffa94d;
+}
+
+.mobile-connectbutton {
+	outline: 0;
+	border: 0;
+	color: white;
+	font-size: 120%;
+	background: #373ec2;
+	border: 2px solid rgb(61, 91, 224);
+	padding: 1% 5%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.mobile-connectbutton:hover {
+	box-shadow: 0px 0px 10px 5px #2a5bfc;
+}
+
+.mobile-container {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.mobile-bar1,
+.mobile-bar2,
+.mobile-bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: rgb(61, 91, 224);
+	margin: 6px 0;
+	transition: 0.4s;
+}
